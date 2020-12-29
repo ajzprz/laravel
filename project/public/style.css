@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+* {
+    list-style: none;
+
+}
+
+.bg-smooth {
+    background-color: #FFE9C5;
+}
+
+.card {
+    color: #382A15;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #6F522A;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.max-height {
+    height: max-content;
+
+}
+
+.contents {
+font-family: 'Texturina', serif;
+    margin-top: 4rem !important;
+    background-color: #382A15;
+    
+
+} 
+
+.hold{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.create{
+    position: fixed;
+    left: 28.6%;
+    z-index: -1;
+
+}
+
+.books{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.cds{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+.dim {
+    opacity: 0.8;
+}
+
+.dimmer {
+    opacity: 0.7;
+
+}
+
+.dimmest {
+    opacity: 0.6;
+
+}
+
+.note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.count {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
