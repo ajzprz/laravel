@@ -32,10 +32,6 @@ Route::get('admin/deletecd/{id}','App\Http\Controllers\AdminController@destroycd
 // Routes for users
 Route::get('/home','App\Http\Controllers\UserController@index')->name('home');
 Route::post('user/addproduct','App\Http\Controllers\UserController@create')->name('user_addproduct');
-Route::get('user/editbook/{id}','App\Http\Controllers\UserController@editbook')->name('user_editbook');
-Route::get('user/editcd/{id}','App\Http\Controllers\UserController@editcd')->name('user_editcd');
-Route::post('user/update/{id}','App\Http\Controllers\UserController@update')->name('update');
-Route::get('user/delete/{id}','App\Http\Controllers\UserController@destroy')->name('deleteproduct');
 
 
 
