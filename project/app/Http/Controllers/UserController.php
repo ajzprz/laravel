@@ -60,23 +60,8 @@ class UserController extends Controller
         }
         
         return redirect ('/home');
-       
     }
-
   
-    public function editbook($id)
-    {
-        $data = Book::where('id',$id)->first();
-        return view('user/user_edit', compact('data'));
-    
-    }
-
-    public function editcd($id){
-        $data = Cd::where('id',$id)->first();
-        $data->pages=$data->play_length;
-        return view('user/useredit', compact('data'));
-
-    }
 
 
 }
